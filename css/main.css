@@ -77,3 +77,10 @@ form button {
   background-color: brown;
   color: white;
 }
+
+.main-content div{
+  font-size: 1.1em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
