@@ -78,9 +78,17 @@ form button {
   color: white;
 }
 
-.main-content div{
-  font-size: 1.1em;
+#main-content div{
+  font-size: 1.2em;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  gap: 100px;
+}
+
+.skip {
+  position: absolute;
+  left: -10000px;
+  top: auto; width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
